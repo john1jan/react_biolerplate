@@ -1,0 +1,31 @@
+{
+  "name": "grow-msite",
+  "version": "1.0.0",
+  "description": "GROWW mobile website application to query about mutual funds and other investment options.",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "NODE_ENV=dev node_modules/.bin/webpack --progress -d",
+    "build-stage": "NODE_ENV=stage node_modules/.bin/webpack -p",
+    "build-prod": "NODE_ENV=production node_modules/.bin/webpack -p",
+    "start-dev": "NODE_ENV=dev node_modules/.bin/babel-node --presets 'react,es2015' src/server.js",
+    "start-stage": "NODE_ENV=stage node_modules/.bin/babel-node --presets 'react,es2015' src/server.js",
+    "start-prod": "NODE_ENV=production node_modules/.bin/babel-node --presets 'react,es2015' src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/growwdevs/grow-msite.git"
+  },
+  "keywords": [
+    "groww",
+    "mutual",
+    "funds",
+    "investment",
+    "returns",
+    "icici",
+    "birla",
+    "axis"
+  ],
+  "author": "NextBillion Technology Pvt Ltd",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/growwdevs/grow-msite#readme"
+}

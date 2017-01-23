@@ -8,17 +8,16 @@ console.log("host ", HOST);
 
 if (process.env.NODE_ENV == "dev") {
     HOST = "http://localhost:3001";
-    API_HOST = "http://stage.api.groww.in";
-    // API_HOST = "https://mapi.groww.in";
+    API_HOST = "http://stage.example.com";
 } else if (process.env.NODE_ENV == "stage") {
-    HOST = "http://stage.groww.in";
-    API_HOST = "http://stage.api.groww.in"
+    HOST = "http://stage.example.com";
+    API_HOST = "http://stage.api.example.com"
 } else if (process.env.NODE_ENV == 'preProd') {
-    HOST = "https://next.groww.in";
-    API_HOST = "https://mapi.groww.in";
+    HOST = "https://pre.example.com";
+    API_HOST = "https://mapi.example.com";
 } else if (process.env.NODE_ENV == "production") {
-    HOST = "https://groww.in";
-    API_HOST = "https://mapi.groww.in";
+    HOST = "https://example.com";
+    API_HOST = "https://mapi.example.com";
 }
 
 export const isDev = process.env.NODE_ENV == "dev";

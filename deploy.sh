@@ -1,7 +1,6 @@
 #USAGE:
     # chmod 777 deploy.sh
     # ./deploy.sh [BranchName] [BuildEnv='dev','stage','preProd','prod']
-# REPO_SOURCE="/usr/local/src/groww-mf-pages"
 # cd $REPO_SOURCE
 sudo git checkout $1
 sudo git pull origin $1

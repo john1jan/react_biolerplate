@@ -153,7 +153,7 @@ app.get('*', (req, res) => {
 });
 
 
-const segmentAnalyticsKey = VALUES.segmentAnalyticsKey;
+
 
 function renderNormalPage(res, preloadedData) {
     let markup = ""
@@ -162,7 +162,6 @@ function renderNormalPage(res, preloadedData) {
     return res.render('index', {
         meta,
         markup,
-        segmentAnalyticsKey,
         preloadedData: JSON.stringify(preloadedData),
         common,
         vendor,
@@ -176,7 +175,6 @@ function renderSSRPage(res, preloadedData, renderProps) {
     return res.render('index', {
         meta,
         markup,
-        segmentAnalyticsKey,
         preloadedData: JSON.stringify(preloadedData),
         common,
         vendor,
@@ -191,7 +189,6 @@ function render404Page(res, preloadedData, renderProps) {
     return res.render('index', {
         meta,
         markup,
-        segmentAnalyticsKey,
         preloadedData: JSON.stringify(preloadedData),
         common,
         vendor,

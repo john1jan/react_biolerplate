@@ -1,8 +1,17 @@
 
-# Groww-Web
-A simple web application to query about mutual funds and other investment options.
+Biolerplate code for developing React applications
 
-## Steps to start application
+The code constants the following features
+
+## features
+1.Server side rendering
+2.Utilities like axios , lodash, jquery
+3.Code splitting using common chunk plugin
+4.Environment specific configuration
+5.EJS for embedding markup in client side DOM
+6.inbuild MaterlizeCSS 
+
+## Steps
 1. git clone
 2. npm install
 3. npm run build-dev

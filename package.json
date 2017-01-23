@@ -1,7 +1,7 @@
 {
-  "name": "groww-mf-pages",
+  "name": "React biolerplate",
   "version": "1.0.0",
-  "description": "Groww web application in react serving mutual fund pages with server-side rendering",
+  "description": "",
   "main": "src/server.js",
   "repository": "git@bitbucket.org:vikaz596/groww-mf-pages.git",
   "scripts": {
@@ -14,7 +14,7 @@
     "start-prod": "NODE_ENV=production node_modules/.bin/babel-node --presets 'react,es2015' src/server.js",
     "start-preProd": "NODE_ENV=preProd node_modules/.bin/babel-node --presets 'react,es2015' src/server.js"
   },
-  "author": "NextBillion Technology Pvt Ltd",
+  "author": "John Francis",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.3",

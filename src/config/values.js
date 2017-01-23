@@ -1,11 +1,11 @@
 import * as ENV from "./env";
 // COLORS used in  Components
 export const COLORS = {
-    GROWW_BASE_LIGHT: "#33c2b0",
-    GROWW_BASE_DARK: "#1ca291",
-    GROWW_GRADIENT_RIGHT: "#33A6BC",
-    GROWW_MAIN_HEADING: '#58627c',
-    GROWW_MAIN_PARAGRAPH: "#a9b5c1",
+    BASE_LIGHT: "#33c2b0",
+    BASE_DARK: "#1ca291",
+    GRADIENT_RIGHT: "#33A6BC",
+    MAIN_HEADING: '#58627c',
+    MAIN_PARAGRAPH: "#a9b5c1",
     LIGHT_GREY: "#f5f7f6",
     WHITE: "#FFFFFF",
     RED: "#EF5350",
@@ -29,12 +29,3 @@ export const CONSTANTS = {
     USER_EMAIL: "USER_EMAIL"
 }
 
-
-export let segmentAnalyticsKey = "";
-if (ENV.isDev || ENV.isStage) {
-    segmentAnalyticsKey = "\" Your Stage KEY \""
-} else if (ENV.isPreProd) {
-    segmentAnalyticsKey = "\"Your PreProd KEY \""
-} else if (ENV.isProd) {
-    segmentAnalyticsKey = "\" Your Prod KEY \""
-}

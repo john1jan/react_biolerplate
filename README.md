@@ -1,7 +1,7 @@
 
 Biolerplate code for developing React applications
 
-The code constants the following features
+The code contains the following features
 
 ## features
 1. Server side rendering

@@ -19,4 +19,4 @@ The code contains the following features
 5. Your app will be running on 0.0.0.0:3001
 
 ## License
-Licensed under [MIT License](LICENSE). © NEXT BILLION PVT LTD.
+Licensed under [MIT License](LICENSE).
